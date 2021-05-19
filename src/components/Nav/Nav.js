@@ -1,12 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
+import clsx from 'clsx';
+import './Nav.css'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -19,25 +16,33 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const handleSubmit = (event) => {
-  event.preventDefault();
-  window.location.href="https://www.facebook.com/SLICE-Catering-646825582602864"
-}
+// const handleSubmit = (event) => {
+//   event.preventDefault();
+//   window.location.href="https://www.facebook.com/SLICE-Catering-646825582602864"
+// }
+
+// const handleSubmit2 = (event) => {
+//   event.preventDefault();
+//   window.location.href="https://www.instagram.com/s.l.i.c.e.catering/"
+// }
 
 function Nav() {
   const classes = useStyles();
-
+  
   return (
+    
     <nav id="nav-wrap">
 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 <ul id="nav" className="nav">
-   <li className="current"><a className="smoothscroll" href="https://www.instagram.com/s.l.i.c.e.catering/">
+   <li className="current"><a className="smoothscroll" href="/">
      S.L.I.C.E. Catering</a>
    </li>
-   <li> <Button type="submit" onClick={handleSubmit} class="material-icons">facebook</Button></li>
+   <li> <SocialIcon style={{height: 10, width: 10}} url="https://www.facebook.com/SLICE-Catering-646825582602864" /></li>
+   <li> <SocialIcon bgColor="#F06000" style={{height: 10, width: 10}} url="https://www.instagram.com/s.l.i.c.e.catering/" /></li>
    <li><a className="smoothscroll" href="/contact">Contact</a></li>
 </ul>
+
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"></link>
 </nav>
@@ -57,5 +62,6 @@ function Nav() {
     //   </AppBar>
     // </div>
   );
+  
 }
 export default Nav;
