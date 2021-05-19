@@ -1,7 +1,11 @@
 .socialIcon {
     font-size: 10px;
-    color:  "#F06000",
+    color:  "#F06000";
 }
 .smoothscroll {
-    color:  "#F06000"
+    color:  "#F06000";
+    background-color: "#333";
+}
+.nav{
+    background-color: "#333";
 }

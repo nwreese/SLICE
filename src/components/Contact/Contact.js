@@ -7,6 +7,7 @@ import '@brainhubeu/react-carousel/lib/style.css';
 import imageOne from './tig4.png'
 import imageTwo from './tig6.png'
 import imageThree from './tig7.png'
+import imageFour from './tig.png'
 
  class Contact extends Component {
    
@@ -53,31 +54,40 @@ import imageThree from './tig7.png'
 // }
 
 return (
-  <div className="register-image" style={{ 
-        backgroundImage: `url(${img})` 
-      }}>
+  
+  <div className="register-image" 
+  
+  // style={{ 
+  //       backgroundImage: `url(${img})` 
+  //     }}
+      >
   {/* <input value={this.state.value} onChange={this.onChange} type="number" /> */}
+  {/* <div style={{ display: 'flex', justifyContent: 'center', flexFlow: 'row', alignContent: 'center', textAlign: 'center' }}> */}
+  
       <Carousel
      plugins={[
       'centered',
       'infinite',
       'arrows',
+      
       {
         resolve: slidesToShowPlugin,
         options: {
-         numberOfSlides: 1,
+         numberOfSlides: 2,
         },
       },
     ]}   
         // value={this.state.value}
         // onChange={this.onChange}
       >
+         <img src={`${imageFour}`} />
         <img src={`${imageOne}`} />
         <img src={`${imageTwo}`} />
         <img src={`${imageThree}`} />
       </Carousel>
+      <div className="contact-text">Email Chef Tig at slicecateringohio@gmail.com</div>
   </div>
-  
+  // </div>
 )
     }
   } 

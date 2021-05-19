@@ -34,6 +34,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
   window.location.href="https://www.instagram.com/p/COoCb02Hlv9/"
 }
+
 function Landing() {
   const classes = useStyles();
 

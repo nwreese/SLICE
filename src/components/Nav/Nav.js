@@ -38,13 +38,14 @@ function Nav() {
    <li className="current"><a className="smoothscroll" href="/">
      S.L.I.C.E. Catering</a>
    </li>
+   {/* <li> <SocialIcon style={{height: 10, width: 10}} fgColor="#F06000" network="email" url="slicecateringohio@gmail.com" /></li> */}
    <li> <SocialIcon style={{height: 10, width: 10}} url="https://www.facebook.com/SLICE-Catering-646825582602864" /></li>
    <li> <SocialIcon bgColor="#F06000" style={{height: 10, width: 10}} url="https://www.instagram.com/s.l.i.c.e.catering/" /></li>
    <li><a className="smoothscroll" href="/contact">Contact</a></li>
 </ul>
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"></link>
+{/* <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"></link> */}
 </nav>
     // <div className={classes.root}>
     //   <AppBar position="static">
