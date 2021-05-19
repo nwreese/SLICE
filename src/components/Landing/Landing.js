@@ -11,6 +11,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import img from "./tig2.png";
 import clsx from 'clsx';
+import { SocialIcon } from 'react-social-icons';
 
 const useStyles = makeStyles({
   root: {
@@ -57,9 +58,9 @@ function Landing() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button type="submit" size="small" className={clsx(classes.button)} onClick={handleSubmit}>
-          Learn More
-        </Button>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/COoCb02Hlv9/" />
       </CardActions>
     </Card>
     </div>
