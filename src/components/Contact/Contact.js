@@ -53,11 +53,6 @@ import imageThree from './tig7.png'
 // }
 
 return (
-  
-  
-    
- 
-  
   <div className="register-image" style={{ 
         backgroundImage: `url(${img})` 
       }}>
