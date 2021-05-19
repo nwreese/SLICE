@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 
 const handleSubmit = (event) => {
   event.preventDefault();
-  window.location.href="https://www.instagram.com/s.l.i.c.e.catering/"
+  window.location.href="https://www.facebook.com/SLICE-Catering-646825582602864"
 }
 
 function Nav() {
@@ -35,8 +35,11 @@ function Nav() {
    <li className="current"><a className="smoothscroll" href="https://www.instagram.com/s.l.i.c.e.catering/">
      S.L.I.C.E. Catering</a>
    </li>
-   <li><a className="smoothscroll" href="#contact">Contact</a></li>
+   <li> <Button type="submit" onClick={handleSubmit} class="material-icons">facebook</Button></li>
+   <li><a className="smoothscroll" href="/contact">Contact</a></li>
 </ul>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"></link>
 </nav>
     // <div className={classes.root}>
     //   <AppBar position="static">
