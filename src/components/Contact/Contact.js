@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import img from "./tig3.png";
 import './Contact.css'
@@ -17,6 +17,7 @@ import Typography from '@material-ui/core/Typography';
 import { SocialIcon } from 'react-social-icons';
 import logo from './tig.png';
 import logo2 from './tig6.png';
+import logo3 from './tig3.png';
 
 const useStyles = makeStyles({
   root: {
@@ -138,7 +139,7 @@ return (
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Watermelon carpaccio
+            Watermelon Carpaccio
           </Typography>Watermelon carpaccio/ bocconcini/ fennel/ mint/ basil/ coconut chips/ watermelon radish/ coconut vinaigrette
           <Typography variant="body2" color="textSecondary" component="p">
            
@@ -148,13 +149,37 @@ return (
       <CardActions>
         View on
         <br></br>
-      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/COUcGYwHjVm/" />
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.https://www.instagram.com/p/COUcGYwHjVm/" />
       </CardActions>
     </Card>
-         <img src={`${imageFour}`} />
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo3}
+          title="Watermellon Carpaccio"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Miso Caramel SLICE Cream
+          </Typography>Miso caramel SLICE Cream/ caramelized banana/ strawberry puree/ candied pistachio/ phyllo crisp/ 5 spice whip cream
+          <Typography variant="body2" color="textSecondary" component="p">
+           
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CNEfKB4HQwu/" />
+      </CardActions>
+    </Card>
+
+         {/* <img src={`${imageFour}`} />
         <img src={`${imageOne}`} />
         <img src={`${imageTwo}`} />
-        <img src={`${imageThree}`} />
+        <img src={`${imageThree}`} /> */}
       </Carousel>
       <div className="contact-text">Email Chef Tig at slicecateringohio@gmail.com</div>
   </div>

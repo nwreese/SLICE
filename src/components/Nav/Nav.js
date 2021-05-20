@@ -35,13 +35,13 @@ function Nav() {
 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 <ul id="nav" className="nav">
-   <li className="current"><a className="smoothscroll" href="/">
+   <li className="current"><a className="smoothscroll" href="#/">
      S.L.I.C.E. Catering</a>
    </li>
    {/* <li> <SocialIcon style={{height: 10, width: 10}} fgColor="#F06000" network="email" url="slicecateringohio@gmail.com" /></li> */}
    <li> <SocialIcon style={{height: 10, width: 10}} url="https://www.facebook.com/SLICE-Catering-646825582602864" /></li>
    <li> <SocialIcon bgColor="#F06000" style={{height: 10, width: 10}} url="https://www.instagram.com/s.l.i.c.e.catering/" /></li>
-   <li><a className="smoothscroll" href="/contact">Contact</a></li>
+   <li><a className="smoothscroll" href="#/contact/">Contact</a></li>
 </ul>
 
 {/* <link href="https://fonts.googleapis.com/icon?family=Material+Icons"

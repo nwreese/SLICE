@@ -1,7 +1,7 @@
 {
   "name": "tigglemang",
   "version": "0.1.0",
-  "homepage": "https://nwreese.github.io/SLICE/",
+  "homepage": "https://nwreese.github.io/SLICE",
   "private": true,
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.3",
