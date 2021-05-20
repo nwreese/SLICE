@@ -43,7 +43,7 @@ class App extends Component {
         <Landing />
       </Route>
         <Route exact path="/Contact">
-        <Contact data={this.state.data.social} />
+        <Contact  />
           </Route>
       </Switch>
       <Footer />
