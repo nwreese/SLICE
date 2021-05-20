@@ -148,7 +148,7 @@ return (
       <CardActions>
         View on
         <br></br>
-      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.https://www.instagram.com/p/COUcGYwHjVm/" />
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/COUcGYwHjVm/" />
       </CardActions>
     </Card>
          <img src={`${imageFour}`} />
