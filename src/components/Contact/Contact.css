@@ -1,6 +1,6 @@
 .register-image {
     background-color: #333;
-    height: 95vh;
+    height: 110vh;
     /* background-repeat: no-repeat;
     height: 150vh;
     background-size: cover;
@@ -14,5 +14,5 @@
     margin-right: auto;
     align-items: center;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20vh;
 }

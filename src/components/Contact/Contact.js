@@ -21,14 +21,14 @@ import logo3 from './tig3.png';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 400,
+    // maxWidth: 400,
     margin: 'auto',
     backgroundColor: 'rgba(52, 52, 52, 0.8)',
     color: 'rgba(255, 99, 71, 1)'
   },
   media: {
     height: 240,
-    marginTop: 200,
+    marginTop: 100,
   },
   button: {
     color: 'rgba(255, 99, 71, 1)',
@@ -90,7 +90,7 @@ return (
       >
   {/* <input value={this.state.value} onChange={this.onChange} type="number" /> */}
   {/* <div style={{ display: 'flex', justifyContent: 'center', flexFlow: 'row', alignContent: 'center', textAlign: 'center' }}> */}
-  
+  <div className="contact-text">Email Chef Tig at slicecateringohio@gmail.com</div>
       <Carousel
      plugins={[
       'centered',
@@ -107,6 +107,7 @@ return (
         // value={this.state.value}
         // onChange={this.onChange}
       >
+
         <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -149,7 +150,7 @@ return (
       <CardActions>
         View on
         <br></br>
-      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.https://www.instagram.com/p/COUcGYwHjVm/" />
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/COUcGYwHjVm/" />
       </CardActions>
     </Card>
 
@@ -181,7 +182,7 @@ return (
         <img src={`${imageTwo}`} />
         <img src={`${imageThree}`} /> */}
       </Carousel>
-      <div className="contact-text">Email Chef Tig at slicecateringohio@gmail.com</div>
+      {/* <div className="contact-text">Email Chef Tig at slicecateringohio@gmail.com</div> */}
   </div>
   // </div>
 )
