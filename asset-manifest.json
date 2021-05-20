@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/SLICE/static/css/main.159bf046.chunk.css",
-    "main.js": "/SLICE/static/js/main.28f90284.chunk.js",
-    "main.js.map": "/SLICE/static/js/main.28f90284.chunk.js.map",
+    "main.css": "/SLICE/static/css/main.ea4a8f00.chunk.css",
+    "main.js": "/SLICE/static/js/main.20695437.chunk.js",
+    "main.js.map": "/SLICE/static/js/main.20695437.chunk.js.map",
     "runtime-main.js": "/SLICE/static/js/runtime-main.1f26d704.js",
     "runtime-main.js.map": "/SLICE/static/js/runtime-main.1f26d704.js.map",
     "static/css/2.d18ddb83.chunk.css": "/SLICE/static/css/2.d18ddb83.chunk.css",
-    "static/js/2.959fa5a6.chunk.js": "/SLICE/static/js/2.959fa5a6.chunk.js",
-    "static/js/2.959fa5a6.chunk.js.map": "/SLICE/static/js/2.959fa5a6.chunk.js.map",
+    "static/js/2.5c2d916d.chunk.js": "/SLICE/static/js/2.5c2d916d.chunk.js",
+    "static/js/2.5c2d916d.chunk.js.map": "/SLICE/static/js/2.5c2d916d.chunk.js.map",
     "static/js/3.7cc3a96e.chunk.js": "/SLICE/static/js/3.7cc3a96e.chunk.js",
     "static/js/3.7cc3a96e.chunk.js.map": "/SLICE/static/js/3.7cc3a96e.chunk.js.map",
     "index.html": "/SLICE/index.html",
     "static/css/2.d18ddb83.chunk.css.map": "/SLICE/static/css/2.d18ddb83.chunk.css.map",
-    "static/css/main.159bf046.chunk.css.map": "/SLICE/static/css/main.159bf046.chunk.css.map",
-    "static/js/2.959fa5a6.chunk.js.LICENSE.txt": "/SLICE/static/js/2.959fa5a6.chunk.js.LICENSE.txt",
+    "static/css/main.ea4a8f00.chunk.css.map": "/SLICE/static/css/main.ea4a8f00.chunk.css.map",
+    "static/js/2.5c2d916d.chunk.js.LICENSE.txt": "/SLICE/static/js/2.5c2d916d.chunk.js.LICENSE.txt",
     "static/media/tig.042fadbe.png": "/SLICE/static/media/tig.042fadbe.png",
+    "static/media/tig10.f7685d57.png": "/SLICE/static/media/tig10.f7685d57.png",
     "static/media/tig2.65c26300.png": "/SLICE/static/media/tig2.65c26300.png",
     "static/media/tig3.259de3ca.png": "/SLICE/static/media/tig3.259de3ca.png",
     "static/media/tig4.3c5b718f.png": "/SLICE/static/media/tig4.3c5b718f.png",
     "static/media/tig6.a542ac4b.png": "/SLICE/static/media/tig6.a542ac4b.png",
-    "static/media/tig7.a9c4f191.png": "/SLICE/static/media/tig7.a9c4f191.png"
+    "static/media/tig7.a9c4f191.png": "/SLICE/static/media/tig7.a9c4f191.png",
+    "static/media/tig9.4e0f839a.png": "/SLICE/static/media/tig9.4e0f839a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1f26d704.js",
     "static/css/2.d18ddb83.chunk.css",
-    "static/js/2.959fa5a6.chunk.js",
-    "static/css/main.159bf046.chunk.css",
-    "static/js/main.28f90284.chunk.js"
+    "static/js/2.5c2d916d.chunk.js",
+    "static/css/main.ea4a8f00.chunk.css",
+    "static/js/main.20695437.chunk.js"
   ]
 }
