@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SLICE/static/css/main.3a89bfea.chunk.css",
-    "main.js": "/SLICE/static/js/main.a54e9046.chunk.js",
-    "main.js.map": "/SLICE/static/js/main.a54e9046.chunk.js.map",
+    "main.css": "/SLICE/static/css/main.006c0b5f.chunk.css",
+    "main.js": "/SLICE/static/js/main.f7df4547.chunk.js",
+    "main.js.map": "/SLICE/static/js/main.f7df4547.chunk.js.map",
     "runtime-main.js": "/SLICE/static/js/runtime-main.1f26d704.js",
     "runtime-main.js.map": "/SLICE/static/js/runtime-main.1f26d704.js.map",
     "static/css/2.d18ddb83.chunk.css": "/SLICE/static/css/2.d18ddb83.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.7cc3a96e.chunk.js.map": "/SLICE/static/js/3.7cc3a96e.chunk.js.map",
     "index.html": "/SLICE/index.html",
     "static/css/2.d18ddb83.chunk.css.map": "/SLICE/static/css/2.d18ddb83.chunk.css.map",
-    "static/css/main.3a89bfea.chunk.css.map": "/SLICE/static/css/main.3a89bfea.chunk.css.map",
+    "static/css/main.006c0b5f.chunk.css.map": "/SLICE/static/css/main.006c0b5f.chunk.css.map",
     "static/js/2.5c2d916d.chunk.js.LICENSE.txt": "/SLICE/static/js/2.5c2d916d.chunk.js.LICENSE.txt",
     "static/media/tig.042fadbe.png": "/SLICE/static/media/tig.042fadbe.png",
     "static/media/tig10.f7685d57.png": "/SLICE/static/media/tig10.f7685d57.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.1f26d704.js",
     "static/css/2.d18ddb83.chunk.css",
     "static/js/2.5c2d916d.chunk.js",
-    "static/css/main.3a89bfea.chunk.css",
-    "static/js/main.a54e9046.chunk.js"
+    "static/css/main.006c0b5f.chunk.css",
+    "static/js/main.f7df4547.chunk.js"
   ]
 }
