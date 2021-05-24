@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import img from "./tig3.png";
+import img from "./tig13.png";
 import './Contact.css'
 import Carousel, { slidesToShowPlugin }  from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
@@ -18,17 +18,20 @@ import { SocialIcon } from 'react-social-icons';
 import logo from './tig.png';
 import logo2 from './tig6.png';
 import logo3 from './tig3.png';
+import logo4 from './tig10.png';
+import logo5 from './tig11.png';
 
 const useStyles = makeStyles({
   root: {
     // maxWidth: 400,
     margin: 'auto',
-    backgroundColor: 'rgba(52, 52, 52, 0.8)',
+    backgroundColor: 'rgba(52, 52, 52, 1)',
     color: 'rgba(255, 99, 71, 1)'
   },
   media: {
     height: 240,
     marginTop: 100,
+    backgroundColor: 'rgba(52, 52, 52, 0.8)',
   },
   button: {
     color: 'rgba(255, 99, 71, 1)',
@@ -84,26 +87,52 @@ return (
   
   <div className="register-image" 
   
-  // style={{ 
-  //       backgroundImage: `url(${img})` 
-  //     }}
+  style={{ 
+        backgroundImage: `url(${img})` 
+      }}
       >
   {/* <input value={this.state.value} onChange={this.onChange} type="number" /> */}
   {/* <div style={{ display: 'flex', justifyContent: 'center', flexFlow: 'row', alignContent: 'center', textAlign: 'center' }}> */}
+  <div className= "row">
   <div className="contact-text">Email Chef Tig at slicecateringohio@gmail.com</div>
+  </div>
       <Carousel
      plugins={[
-      'centered',
-      'infinite',
       'arrows',
-      
+      'infinite',
       {
         resolve: slidesToShowPlugin,
         options: {
-         numberOfSlides: 2,
-        },
+         numberOfSlides: 3
+        }
       },
-    ]}   
+    ]}
+    breakpoints={{
+      640: {
+        plugins: [
+          'arrows',
+          'infinite',
+         {
+           resolve: slidesToShowPlugin,
+           options: {
+            numberOfSlides: 1
+           }
+         },
+       ]
+      },
+      900: {
+        plugins: [
+          'arrows',
+          'infinite',
+         {
+           resolve: slidesToShowPlugin,
+           options: {
+            numberOfSlides: 2
+           }
+         },
+       ]
+      }
+    }}
         // value={this.state.value}
         // onChange={this.onChange}
       >
@@ -177,6 +206,49 @@ return (
       </CardActions>
     </Card>
 
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo4}
+          title="Party Menu"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+          I had a blast with last night's party
+          </Typography> Here's what's on the menu and pics of the courses
+          <Typography variant="body2" color="textSecondary" component="p"> 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CMr7T9cHXV1/" />
+      </CardActions>
+    </Card>
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo5}
+          title="Roasted Halibut"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+          Roasted Halibut
+          </Typography> Roasted halibut cheeks/ carrot bacon hash/ beech mushrooms/ miso corn sauce
+          <Typography variant="body2" color="textSecondary" component="p"> 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CPCfTgCHVJk/" />
+      </CardActions>
+    </Card>
          {/* <img src={`${imageFour}`} />
         <img src={`${imageOne}`} />
         <img src={`${imageTwo}`} />

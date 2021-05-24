@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap'); /*Header text font*/
 
 .footer {
-    background-color:rgba(52, 52, 52, 1) ;
+    background-color:rgba(52, 52, 52, 1);
     color: #F06000;
     text-align: center;
     height: 30px;
@@ -12,7 +12,13 @@
     font-family: 'DM Serif Display', serif;
 }
 
-p{
+.footer2{
     font-size: 18px !important;
+    margin-bottom: -1vh;
 }
 
+.footer3{
+    font-size: 15px !important;
+    background-color:rgba(52, 52, 52, 1);
+    padding-bottom: 10px;
+}

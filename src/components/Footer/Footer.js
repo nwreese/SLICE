@@ -5,8 +5,9 @@ const Footer = () => {
     return (
         <div>
     <div className="footer">
-        <p>Made by Nick Reese 2021
-        </p>
+        <h2 className="footer2">Specialized, Local, Intimate, Culinary, Experience</h2>
+        <h3 className="footer3">Made by Nick Reese 2021
+        </h3>
     </div>
         </div>
     )

@@ -77,7 +77,7 @@ header .scrolldown a:hover { color: #11ABB0; }
   letter-spacing: 2.5px;
   margin: 0 auto;
   z-index: 100;
-  position: fixed;
+  position:absolute;
   left: 0;
   top: 0;
   
