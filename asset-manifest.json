@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SLICE/static/css/main.b70a9fcd.chunk.css",
-    "main.js": "/SLICE/static/js/main.7e6d7628.chunk.js",
-    "main.js.map": "/SLICE/static/js/main.7e6d7628.chunk.js.map",
+    "main.js": "/SLICE/static/js/main.4f2c37b0.chunk.js",
+    "main.js.map": "/SLICE/static/js/main.4f2c37b0.chunk.js.map",
     "runtime-main.js": "/SLICE/static/js/runtime-main.1f26d704.js",
     "runtime-main.js.map": "/SLICE/static/js/runtime-main.1f26d704.js.map",
     "static/css/2.d18ddb83.chunk.css": "/SLICE/static/css/2.d18ddb83.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.d18ddb83.chunk.css.map": "/SLICE/static/css/2.d18ddb83.chunk.css.map",
     "static/css/main.b70a9fcd.chunk.css.map": "/SLICE/static/css/main.b70a9fcd.chunk.css.map",
     "static/js/2.5c2d916d.chunk.js.LICENSE.txt": "/SLICE/static/js/2.5c2d916d.chunk.js.LICENSE.txt",
-    "static/media/favicon_knife.ae07bb60.png": "/SLICE/static/media/favicon_knife.ae07bb60.png",
+    "static/media/favicon_fork.db1b6a55.png": "/SLICE/static/media/favicon_fork.db1b6a55.png",
     "static/media/tig.042fadbe.png": "/SLICE/static/media/tig.042fadbe.png",
     "static/media/tig10.f7685d57.png": "/SLICE/static/media/tig10.f7685d57.png",
     "static/media/tig11.2bcb5856.png": "/SLICE/static/media/tig11.2bcb5856.png",
@@ -30,6 +30,6 @@
     "static/css/2.d18ddb83.chunk.css",
     "static/js/2.5c2d916d.chunk.js",
     "static/css/main.b70a9fcd.chunk.css",
-    "static/js/main.7e6d7628.chunk.js"
+    "static/js/main.4f2c37b0.chunk.js"
   ]
 }
