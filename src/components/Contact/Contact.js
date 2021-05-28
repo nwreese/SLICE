@@ -20,6 +20,9 @@ import logo2 from './tig6.png';
 import logo3 from './tig3.png';
 import logo4 from './tig10.png';
 import logo5 from './tig11.png';
+import logo6 from './tig17.jpg';
+import logo7 from './tig16.jpg';
+import logo8 from './tig15.png.jpg';
 
 const useStyles = makeStyles({
   root: {
@@ -249,7 +252,74 @@ return (
       <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CPCfTgCHVJk/" />
       </CardActions>
     </Card>
-         {/* <img src={`${imageFour}`} />
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo6}
+          title="Roasted Halibut"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+          John Dory
+          </Typography> Crispy skin John Dory, potato fava bean succotash with chorizo, romesco, broccolini and pickled heirloom carrots
+          <Typography variant="body2" color="textSecondary" component="p"> 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CNCH065HcKc/" />
+      </CardActions>
+    </Card>
+
+
+   <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo7}
+          title="Roasted Halibut"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+          Braised Short Ribs
+          </Typography> Braised short ribs/ roasted squash puree/ baby rainbow carrots/ black garlic puree/ pickled mustard seed/ charred cippolini
+          <Typography variant="body2" color="textSecondary" component="p"> 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CMjAVJIHV2l/" />
+      </CardActions>
+    </Card>
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo8}
+          title="Roasted Halibut"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+        Crispy Skin Walleye
+          </Typography> Walleye / Clams / Shrimp / Broccolini / Corn / White Wine Butter Broth
+          <Typography variant="body2" color="textSecondary" component="p"> 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CMEic-aHAwD/" />
+      </CardActions>
+    </Card>
+     {/* <img src={`${imageFour}`} />
         <img src={`${imageOne}`} />
         <img src={`${imageTwo}`} />
         <img src={`${imageThree}`} /> */}

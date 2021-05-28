@@ -1,4 +1,4 @@
-import logo from './tig.png';
+import logo from './Slice2.jpg';
 import './Landing.css';
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
@@ -17,11 +17,11 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 350,
     margin: 'auto',
-    backgroundColor: 'rgba(52, 52, 52, 0.8)',
+    backgroundColor: 'rgba(52, 52, 52, 0.9)',
     color: 'rgba(255, 99, 71, 1)'
   },
   media: {
-    height: 240,
+    height: 200,
     marginTop: 200,
   },
   button: {
@@ -51,18 +51,18 @@ function Landing() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Miso Corn Scallops
-          </Typography>Miso corn scallops, carrot bacon hash and beech mushroom
+            About Chef Tig
+          </Typography>Chef Tig combines 25+ years of culinary experience paired with an education from Pennsylvania Institute of Culinary Arts. He has worked at some of Akron areas favorite restaurants, ranging from The Galaxy, The Olde Harbor Inn, Nuevo, Crave and D'Agnese's. Most recently he has been a private chef for the Cleveland Brown's Jarvis Landry.  
           <Typography variant="body2" color="textSecondary" component="p">
            
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      {/* <CardActions>
         View on
         <br></br>
       <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/COoCb02Hlv9/" />
-      </CardActions>
+      </CardActions> */}
     </Card>
     </div>
   );
