@@ -1,4 +1,4 @@
 # Deployed:
-cheftig.com
+www.cheftig.com
 # Screenshot:
 <img src = "Slicecatering.jpg">
