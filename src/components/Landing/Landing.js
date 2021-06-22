@@ -50,7 +50,7 @@ function Landing() {
           title="Miso corn scallops"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h4" component="h2">
             About Chef Tig
           </Typography>Chef Tig combines 25+ years of culinary experience paired with an education from Pennsylvania Institute of Culinary Arts. He has worked at some of Akron areas favorite restaurants, ranging from The Galaxy, The Olde Harbor Inn, Nuevo, Crave and D'Agnese's. Most recently he has been a private chef for the Cleveland Brown's Jarvis Landry.  
           <Typography variant="body2" color="textSecondary" component="p">

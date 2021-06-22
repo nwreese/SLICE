@@ -23,6 +23,7 @@ import logo5 from './tig11.png';
 import logo6 from './tig17.jpg';
 import logo7 from './tig16.jpg';
 import logo8 from './tig15.png.jpg';
+import logo9 from './tig18.jpg';
 
 const useStyles = makeStyles({
   root: {
@@ -206,6 +207,28 @@ return (
         View on
         <br></br>
       <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CNEfKB4HQwu/" />
+      </CardActions>
+    </Card>
+
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={logo9}
+          title="Vegan Dish"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+          New Vegan Dish
+          </Typography>Spiced heirloom carrots/ lemon tahini/ pomegranate redux/ mint/ toasted cashews/ pomegranate seeds/ carrot top oil 
+          <Typography variant="body2" color="textSecondary" component="p"> 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        View on
+        <br></br>
+      <SocialIcon  bgColor="#F06000" style={{height: 30, width: 30}} url="https://www.instagram.com/p/CQEqootn22S/" />
       </CardActions>
     </Card>
 
