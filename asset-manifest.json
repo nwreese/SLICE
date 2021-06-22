@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.59706f2f.chunk.css",
-    "main.js": "/static/js/main.fb26d7c2.chunk.js",
-    "main.js.map": "/static/js/main.fb26d7c2.chunk.js.map",
+    "main.js": "/static/js/main.476b4cce.chunk.js",
+    "main.js.map": "/static/js/main.476b4cce.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.27dfd159.js",
     "runtime-main.js.map": "/static/js/runtime-main.27dfd159.js.map",
     "static/css/2.d18ddb83.chunk.css": "/static/css/2.d18ddb83.chunk.css",
-    "static/js/2.9fa74506.chunk.js": "/static/js/2.9fa74506.chunk.js",
-    "static/js/2.9fa74506.chunk.js.map": "/static/js/2.9fa74506.chunk.js.map",
+    "static/js/2.1b8fd576.chunk.js": "/static/js/2.1b8fd576.chunk.js",
+    "static/js/2.1b8fd576.chunk.js.map": "/static/js/2.1b8fd576.chunk.js.map",
     "static/js/3.7cc3a96e.chunk.js": "/static/js/3.7cc3a96e.chunk.js",
     "static/js/3.7cc3a96e.chunk.js.map": "/static/js/3.7cc3a96e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d18ddb83.chunk.css.map": "/static/css/2.d18ddb83.chunk.css.map",
     "static/css/main.59706f2f.chunk.css.map": "/static/css/main.59706f2f.chunk.css.map",
-    "static/js/2.9fa74506.chunk.js.LICENSE.txt": "/static/js/2.9fa74506.chunk.js.LICENSE.txt",
+    "static/js/2.1b8fd576.chunk.js.LICENSE.txt": "/static/js/2.1b8fd576.chunk.js.LICENSE.txt",
     "static/media/Slice2.6accb88f.jpg": "/static/media/Slice2.6accb88f.jpg",
     "static/media/tig.042fadbe.png": "/static/media/tig.042fadbe.png",
     "static/media/tig10.f7685d57.png": "/static/media/tig10.f7685d57.png",
@@ -22,6 +22,7 @@
     "static/media/tig15.png.5fc491a0.jpg": "/static/media/tig15.png.5fc491a0.jpg",
     "static/media/tig16.22742293.jpg": "/static/media/tig16.22742293.jpg",
     "static/media/tig17.0fa71a30.jpg": "/static/media/tig17.0fa71a30.jpg",
+    "static/media/tig18.4939cfd8.jpg": "/static/media/tig18.4939cfd8.jpg",
     "static/media/tig2.65c26300.png": "/static/media/tig2.65c26300.png",
     "static/media/tig3.259de3ca.png": "/static/media/tig3.259de3ca.png",
     "static/media/tig4.3c5b718f.png": "/static/media/tig4.3c5b718f.png",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.27dfd159.js",
     "static/css/2.d18ddb83.chunk.css",
-    "static/js/2.9fa74506.chunk.js",
+    "static/js/2.1b8fd576.chunk.js",
     "static/css/main.59706f2f.chunk.css",
-    "static/js/main.fb26d7c2.chunk.js"
+    "static/js/main.476b4cce.chunk.js"
   ]
 }
